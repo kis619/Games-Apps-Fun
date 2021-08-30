@@ -6,7 +6,7 @@ def print_matrix(matrix):
 
 
 def allot_signs(p1, p2, sign_p1):
-    sign_p2 = "O" if sign_p1.upper() == "X" else sign_p2 = "X"
+    sign_p2 = "O" if sign_p1.upper() == "X" else "X"
     player_signs = {p1: sign_p1.upper(), p2: sign_p2.upper()}
 
     return player_signs
