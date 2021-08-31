@@ -1,12 +1,12 @@
 from Workshop1.play.mappers import *
 
 
-def check_if_correct_input():
-    sign_p1 = input(f"please choose a sign by typing \"X\" or \"O\": ")
+def check_if_correct_input(player):
+    sign_p1 = input(f"{player} please choose a sign by typing \"X\" or \"O\": ")
     acceptable_signs = ["X", "x", "O", "o"]
     if not sign_p1 in acceptable_signs:
         print("You can only choose between 'X' and 'O'.")
-        return check_if_correct_input()
+        return check_if_correct_input(player)
 
     return sign_p1
 
