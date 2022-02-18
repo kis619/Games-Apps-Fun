@@ -1,0 +1,4 @@
+{"id": 1, "name": "leg", "img_path": "leg.JPG", "quantity": 16}
+{"id": 2, "name": "arm", "img_path": "arm.JPG", "quantity": 23}
+{"id": 3, "name": "hand", "img_path": "hand.JPG", "quantity": 86}
+{"id": 4, "name": "genitalia", "img_path": "genitalia.JPG", "quantity": 17.5}
